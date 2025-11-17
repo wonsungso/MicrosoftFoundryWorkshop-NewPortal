@@ -167,18 +167,7 @@
 
 ![image.png](./images/image%2013.png)
 
-**Azure OpenAI에 Azure AI 검색 권한 할당**
-
-1. 상단 검색창에서 `OpenAI`를 검색하여 `AI Foundry | Azure OpenAI` 화면으로 이동합니다.
-2. 리소스 목록에서 생성한 `openai-<alias>`를 클릭합니다.
-3. 왼쪽 메뉴에서 `액세스 제어(IAM)` 메뉴를 클릭합니다.
-4. 상단 `추가` 버튼을 클릭하고 `역할 할당 추가`를 클릭합니다.
-5. 역할 탭에서 `Cognitive Services OpenAI Contributor`를 검색하여 클릭하고 `다음` 버튼을 클릭합니다.
-6. 구성원 탭, 다음에 대한 액세스 할당에서 `관리 ID`를 선택하고 `+ 구성원 선택`을 클릭합니다.
-7. **관리 ID**에서 `Azure OpenAI`를 선택하고 목록에서 `openai-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
-8. `검토 + 할당` 버튼을 클릭합니다.
-
-**Azure AI 검색에 Azure OpenAI 권한 할당**
+**Azure OpenAI → Azure AI Search 에 접근하기 위해 필요한 권한**
 
 1. 상단 검색창에서 `AI 검색`를 검색하여 `AI Foundry | Azure Search` 화면으로 이동합니다.
 2. 리소스 목록에서 생성한 `aisearch-<alias>`를 클릭합니다.
@@ -186,11 +175,22 @@
 4. 상단 `추가` 버튼을 클릭하고 `역할 할당 추가`를 클릭합니다.
 5. 역할 탭에서 `검색 인덱스 데이터 읽기 권한자`를 검색하여 클릭하고 `다음` 버튼을 클릭합니다.
 6. 구성원 탭, 다음에 대한 액세스 할당에서 `관리 ID`를 선택하고 `+ 구성원 선택`을 클릭합니다.
-7. **관리 ID**에서 `Search Service`를 선택하고 목록에서 `aisearch-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
+7. **관리 ID**에서 `Azure OpenAI`를 선택하고 목록에서 `openai-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
 8. `검토 + 할당` 버튼을 클릭합니다.
 9. 같은 방법으로 역할 탭 `작업 기능 역할`에서 `Search Service 참가자`를 클릭합니다.
-10. **관리 ID**에서 `Search Service`를 선택하고 목록에서 `aisearch-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
+10. **관리 ID**에서 `Azure OpenAI`를 선택하고 목록에서 `openai-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
 11. `검토 + 할당` 버튼을 클릭합니다.
+
+**Azure AI Search → Azure OpenAI 접근 권한**
+
+1. 상단 검색창에서 `OpenAI`를 검색하여 `AI Foundry | Azure OpenAI` 화면으로 이동합니다.
+2. 리소스 목록에서 생성한 `openai-<alias>`를 클릭합니다.
+3. 왼쪽 메뉴에서 `액세스 제어(IAM)` 메뉴를 클릭합니다.
+4. 상단 `추가` 버튼을 클릭하고 `역할 할당 추가`를 클릭합니다.
+5. 역할 탭에서 `Cognitive Services OpenAI Contributor`를 검색하여 클릭하고 `다음` 버튼을 클릭합니다.
+6. 구성원 탭, 다음에 대한 액세스 할당에서 `관리 ID`를 선택하고 `+ 구성원 선택`을 클릭합니다.
+7. **관리 ID**에서 `Search Services`를 선택하고 목록에서 `aisearch-<alias>`을 클릭하고 `선택` 버튼을 클릭합니다.
+8. `검토 + 할당` 버튼을 클릭합니다.
 
 **계정에 스토리지 권한 할당**
 
