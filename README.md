@@ -64,5 +64,8 @@
 
 ---
 
-> **출처 및 참고**
-> 이 워크샵은 [https://github.com/Anna-Jeong-MS/AzureAIFoundryWorkshop](https://github.com/Anna-Jeong-MS/AzureAIFoundryWorkshop)을 기반으로 재작성되었습니다.
+## Contributors
+
+| Name | GitHub |
+|---|---|
+| Wonsung So | [@wonsungso](https://github.com/wonsungso) |
