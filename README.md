@@ -1,6 +1,6 @@
-> **📌 참고**
+﻿> **📌 참고**
 > 이 워크샵은 **Microsoft Foundry 새로운 포털(2026년 기준)** 기반으로 작성되었습니다.
->
+> 
 > 기존 Classic 포털 기반 워크샵은 [AzureAIFoundryWorkshop](https://github.com/wonsungso/AzureAIFoundryWorkshop)을 참조하세요.
 
 # 🚀 Microsoft Foundry Workshop - Portal

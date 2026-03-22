@@ -1,4 +1,4 @@
-# 3. 첫번째 에이전트 구현해보기
+﻿# 3. 첫번째 에이전트 구현해보기
 
 이번 모듈에서는 [Microsoft Foundry 포털](https://ai.azure.com/)의 **에이전트 만들기 및 디버그** 화면과 **플레이그라운드 사용 보기** 기능을 사용해 카드회원 분석용 에이전트를 만듭니다.
 
@@ -15,7 +15,7 @@
 
 ## 에이전트 화면 구성 요소
 
-![image.png](./images/image_agent_playground.png)
+<img src="./images/image_agent_playground.png" width="700">
 
 - `모델`: 에이전트가 답변 생성에 사용할 기본 모델(`gpt-4o`)을 선택하고 필요 시 다른 배포 모델로 전환하는 영역입니다.
 - `음성 모드(미리 보기)`: 음성으로 질문하고 음성으로 답변받는 보이스 기반 대화를 켜고 테스트하는 기능입니다.
@@ -56,7 +56,7 @@
     - 파일: [user_card_credit_summary_sample.json](./../assets/user_card_credit_summary_sample.json) 선택
 3. 새 창을 열어 좌측 메뉴 `지식` > `인덱스`로 이동하여, 생성한 인덱스가 존재하는지 목록에서 확인합니다.
 
-![](./images/image_file_upload.png)
+<img src="./images/image_file_upload.png" width="700">
 
 4. 다시 한번 에이전트 플레이그라운드에서 우측 패널 `도구` > `파일 업로드`를 클릭한 후 생성한 인덱스 `credit-profile-index` 를 선택/연결합니다.
 
@@ -100,10 +100,11 @@
 - 조건 필터가 정확히 반영되는지
 - 업로드한 데이터 기반의 결과를 반환하는지
 
-이제 3번 모듈 실습(첫 번째 에이전트 구현)이 완료되었습니다.
+<img src="./images/image_agent_playground_result.png" width="700">
 
+---
+
+이제 3번 모듈 실습(첫 번째 에이전트 구현)이 완료되었습니다.
 다음 모듈에서 멀티 에이전트를 구현해 보겠습니다.
 
 ➡️ [4. 멀티 에이전트 구현해보기](./../4.%20멀티%20에이전트%20구현해보기/README.md)
-
-![image.png](./images/image_agent_playground_result.png)

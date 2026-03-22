@@ -1,4 +1,4 @@
-# 1. Microsoft Foundry 구성
+﻿# 1. Microsoft Foundry 구성
 
 이 모듈은 Foundry 프로젝트를 만들고, 이후 실습에서 사용할 Azure 리소스를 준비하기 위한 시작 단계입니다.
 
@@ -12,7 +12,7 @@
    - `Azure AI User` – 프로젝트 데이터 작업 및 읽기 권한
    - `Azure AI Developer` – 리소스 관리를 제외한 전체 작업 권한
 
-![](./images/image_role_assignment.png)
+<img src="./images/image_role_assignment.png" width="700">
 
 6. 구성원 유형은 `사용자, 그룹 또는 서비스 주체`를 선택합니다.
 7. 본인 계정을 선택하고 `검토 + 할당`을 완료합니다.
@@ -28,7 +28,7 @@
 5. 나머지 옵션은 기본값으로 두고 `만들기`를 클릭합니다.
 6. 프로젝트 생성이 완료될 때까지 잠시 기다립니다.
 
-![](./images/image_project_create.png)
+<img src="./images/image_project_create.png" width="700">
 
 ## 프로젝트 정보 확인
 
@@ -38,7 +38,7 @@
 4. 이후 실습에서 반복해서 사용할 **리소스 그룹 이름**을 메모해 둡니다.
 5. 필요하면 새 브라우저 탭에서 [Azure 포털](https://portal.azure.com)을 열고 같은 리소스 그룹이 생성되었는지 확인합니다.
 
-![image.png](./images/image_project_details.png)
+<img src="./images/image_project_details.png" width="700">
 
 ## 이후 모듈에서 사용할 포털 내비게이션
 
@@ -47,8 +47,9 @@
 - **작업 > 관리자**: 연결, 운영 리소스 관리
 - **평가**: 평가 실행 및 결과 확인
 
-이제 1번 모듈 실습(Microsoft Foundry 구성)이 완료되었습니다.
+---
 
+이제 1번 모듈 실습(Microsoft Foundry 구성)이 완료되었습니다.
 다음 모듈에서 모델을 배포하고 플레이그라운드를 활용해 보겠습니다.
 
 ➡️ [2. 플레이그라운드 활용해보기](./../2.%20플레이그라운드%20활용해보기/README.md)
