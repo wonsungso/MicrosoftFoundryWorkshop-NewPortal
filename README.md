@@ -1,6 +1,10 @@
+> **📌 참고**
+> 이 워크샵은 **Microsoft Foundry 새로운 포털(2026년 기준)** 기반으로 작성되었습니다.
+> 기존 Classic 포털 기반 워크샵은 [AzureAIFoundryWorkshop](https://github.com/wonsungso/AzureAIFoundryWorkshop)을 참조하세요.
+
 # 🚀 Microsoft Foundry Workshop - Portal
 
-이 워크샵은 **[Microsoft Foundry 포털](https://ai.azure.com/)**에서 생성형 AI 애플리케이션을 설계하고 실험하고 평가하는 전체 흐름을 직접 따라가도록 구성되어 있습니다.
+이 워크샵은 [Microsoft Foundry 포털](https://ai.azure.com/)에서 생성형 AI 애플리케이션을 설계하고 실험하고 평가하는 전체 흐름을 직접 따라가도록 구성되어 있습니다.
 
 실습의 중심은 다음 네 가지입니다.
 
