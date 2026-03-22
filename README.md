@@ -17,7 +17,7 @@
 
 ### 1. Microsoft Foundry 기본 구성
 - [Microsoft Foundry 포털](https://ai.azure.com/)에서 프로젝트 생성
-- Azure AI Search, Azure Storage 등 외부 리소스 준비
+- 필요 시 Azure Storage 등 보조 리소스 준비
 - **작업 > 관리자**에서 프로젝트 연결 구성
 - 실습용 리소스 그룹과 프로젝트 정보 확인
 
